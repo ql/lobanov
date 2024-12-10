@@ -19,7 +19,7 @@ permissions:
 jobs:
   test:
 
-    runs-on: buildjet-2vcpu-ubuntu-2204	
+    runs-on: Foobar	
     strategy:
       matrix:
         ruby-version: ['3.0']
