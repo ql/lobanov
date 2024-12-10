@@ -23,7 +23,7 @@ jobs:
       matrix:
         ruby-version: ['3.0']
     env:
-      AGENT_TOOLSDIRECTORY: ${{ runner.tool_cache }}
+      AGENT_TOOLSDIRECTORY: ${RUNNER_TOOL_CACHE}
     steps:
     - uses: actions/checkout@v4
     - name: Set up Ruby
