@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'spec_helper'
+require 'fileutils'
 
 RSpec.describe Lobanov::Support::BundleSchema do 
   describe 'saves a single-file schema bundle given a path to index.yaml' do 
